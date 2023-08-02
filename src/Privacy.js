@@ -1,4 +1,5 @@
 import React from 'react';
+import "./PrivacyPage.css"
 
 const Privacy = () => {
   return (
@@ -24,42 +25,13 @@ const Privacy = () => {
         </button>
         <div className="navbar-collapse collapse" id="navbarContent">
           <ul className="navbar-nav ml-lg-4 pt-3 pt-lg-0">
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                Product
-              </a>
-            </li>
-            <li className="nav-item ">
-              <a href="/" className="nav-link">
-                Customers
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="#" className="nav-link">
-                Integrations
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                Learn
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                Pricing
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="/" className="nav-link">
-                contact us
-              </a>
-            </li>
+            
           </ul>
           
         </div>
       </div>
     </nav>
-    <div className="main-content">
+    <div className="main-content" style={{marginTop: "0px !important"}}>
       <div className="container">
         <div className="policy-page privacy-policy-page">
           <div className="section-container">
@@ -991,107 +963,13 @@ const Privacy = () => {
         </div>
       </div>
     </div>
-    <footer className="page-footer">
-      <div className="container">
-        <div className="row justify-content-center mb-5">
-          <div className="col-lg-3 py-3">
-            <h3>
-              Re<span className="text-primary">tafy</span>
-            </h3>
-            <div className="sosmed-button mt-4">
-              <a href="#">
-                <span className="mai-logo-facebook-f" />
-              </a>
-              <a href="#">
-                <span className="mai-logo-twitter" />
-              </a>
-              <a href="#">
-                <span className="mai-logo-google" />
-              </a>
-              <a href="#">
-                <span className="mai-logo-linkedin" />
-              </a>
-            </div>
-          </div>
-          <div className="col-lg-3 py-3">
-            <h5>PRODUCT</h5>
-            <ul className="footer-menu">
-              <li>
-                <a href="#">Points</a>
-              </li>
-              <li>
-                <a href="#">VIP</a>
-              </li>
-              <li>
-                <a href="#">Referrals</a>
-              </li>
-              <li>
-                <a href="#">Retafy UI</a>
-              </li>
-              <li>
-                <a href="#">Retafy Admin</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-lg-3 py-3">
-            <h5>RESOURCES</h5>
-            <ul className="footer-menu">
-              <li>
-                <a href="#">Blog</a>
-              </li>
-              <li>
-                <a href="#">Learning Center</a>
-              </li>
-              <li>
-                <a href="#">Help Docs</a>
-              </li>
-              <li>
-                <a href="#">Status Page</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-lg-3 py-3">
-            <h5>COMPANY</h5>
-            <ul className="footer-menu">
-              <li>
-                <a href="#">About Us</a>
-              </li>
-              <li>
-                <a href="#">Join the Team</a>
-              </li>
-              <li>
-                <a href="#">Our Partners</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
-              <li>
-                <a href="#">Brand Assets</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="row last_footer">
-          <div className="col-sm-6 py-2">
-            <p id="copyright">
-              © 2020 <a href="#">Retafy</a>. All rights reserved
-            </p>
-          </div>
-          <div className="col-sm-6 py-2 text-right ">
-            <div className="d-inline-block px-3">
-              <a href="/privacyPolicy">Privacy Policy</a>
-            </div>
-            <div className="d-inline-block px-3">
-              <a href="#">Terms of Service</a>
-            </div>
-            <div className="d-inline-block px-3">
-              <a href="/privacyPolicy">Support Policy</a>
-            </div>
-          </div>
-        </div>
-      </div>{" "}
-      {/* .container */}
-    </footer>{" "}
+    
+    <footer>
+        <p>&copy; {new Date().getFullYear()} Retafy Pvt. Ltd. All rights reserved.</p>
+        <p>
+          <a href="/privacyPolicy">Privacy Policy</a>
+        </p>
+      </footer>
     {/* .page-footer */}
     {/*  */}
   </header>

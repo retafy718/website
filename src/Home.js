@@ -28,7 +28,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      <section className="key-points">
+      <section className="key-points" style={{marginTop: "24px"}}>
         <Container>
           <h2>Key Points</h2>
           <Row>
@@ -66,7 +66,7 @@ const Home = () => {
         </Container>
       </section>
       <footer>
-        <p>&copy; {new Date().getFullYear()} Retafy. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Retafy Pvt. Ltd. All rights reserved.</p>
         <p>
           <a href="/privacyPolicy">Privacy Policy</a>
         </p>
